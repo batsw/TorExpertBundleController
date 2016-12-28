@@ -1,0 +1,17 @@
+# Configuration files and folder location
+DataDirectory ./Data T/Tor
+GeoIPFile ./Data T/Tor/geoip
+GeoIPv6File ./Data T/Tor/geoip6
+HiddenServiceStatistics 0
+
+# Port used to send request
+SocksPort 11158
+
+# Directory were the hostname and the private key are stored
+HiddenServiceDir ./Data T/Tor/hidden_service/
+
+# The port on which the server is listening
+# Example:
+# All traffic coming on port 80 will be routed to port 8080 of the local proxy
+HiddenServicePort 80 127.0.0.1:8080
+

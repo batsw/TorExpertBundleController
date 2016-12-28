@@ -1,0 +1,17 @@
+#FROM TOR FOLDER
+# Configuration files and folder location
+DataDirectory ./Data/Tor
+GeoIPFile ./Data/Tor/geoip
+GeoIPv6File ./Data/Tor/geoip6
+HiddenServiceStatistics 0
+
+# Port used to send request
+SocksPort 11158
+
+# Directory were the hostname and the private key are stored
+HiddenServiceDir ./Data/Tor/hidden_service/
+
+# The port on which the server is listening
+# Example:
+# All traffic comming on port 80 will be routed to port 8080 of the lolal proxy
+HiddenServicePort 80 127.0.0.1:8080

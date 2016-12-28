@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <File name="file" fileName="./app.log">
+            <PatternLayout>
+                <Pattern>%d %p %m  %n</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="filedebug" fileName="./app.dbg.log">
+            <PatternLayout>
+                <Pattern>%d %p  [%t] %C %M Message: %m %ex %n</Pattern>
+            </PatternLayout>
+        </File>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%m %n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="file" level="INFO"/>
+            <AppenderRef ref="STDOUT" level="DEBUG"/>
+            <AppenderRef ref="filedebug" level="DEBUG"/>
+        </Root>
+    </Loggers>
+</Configuration>

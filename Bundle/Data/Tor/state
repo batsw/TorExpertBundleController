@@ -1,0 +1,47 @@
+# Tor state file last generated on 2016-12-28 22:58:53 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+EntryGuard Iridium44 91A32B95CC1213704ACF19D7021AD40BDC318204 DirCache
+EntryGuardUnlistedSince 2016-12-08 19:25:54
+EntryGuardAddedBy 91A32B95CC1213704ACF19D7021AD40BDC318204 0.2.8.7 2016-11-11 18:48:31
+EntryGuardPathBias 247.000000 243.000000 242.000000 1.000000 0.000000 2.000000
+EntryGuardPathUseBias 74.500000 74.500000
+EntryGuard regar42 BD4C647508162F59CB44E4DFC1C2B2B8A9387CCA DirCache
+EntryGuardAddedBy BD4C647508162F59CB44E4DFC1C2B2B8A9387CCA 0.2.8.7 2016-10-22 09:25:31
+EntryGuardPathBias 82.000000 82.000000 82.000000 0.000000 0.000000 0.000000
+EntryGuardPathUseBias 54.000000 54.000000
+EntryGuard DisciplesOfDisorder 50A6506AB185A333C8B669471A615FE3C5FE6ED5 DirCache
+EntryGuardAddedBy 50A6506AB185A333C8B669471A615FE3C5FE6ED5 0.2.8.7 2016-11-10 17:12:24
+EntryGuardPathBias 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000
+EntryGuardPathUseBias 1.000000 1.000000
+EntryGuard SweRaspiTor3 DCAA176F75B04287131C6D78B7CFDDAC6F2691D9 DirCache
+EntryGuardAddedBy DCAA176F75B04287131C6D78B7CFDDAC6F2691D9 0.2.8.7 2016-12-11 23:48:02
+EntryGuardPathBias 2.000000 2.000000 2.000000 0.000000 0.000000 0.000000
+TorVersion Tor 0.2.8.7 (git-263088633a63982a)
+LastWritten 2016-12-28 20:58:53
+TotalBuildTimes 230
+CircuitBuildTimeBin 175 24
+CircuitBuildTimeBin 225 32
+CircuitBuildTimeBin 275 25
+CircuitBuildTimeBin 325 22
+CircuitBuildTimeBin 375 17
+CircuitBuildTimeBin 425 23
+CircuitBuildTimeBin 475 17
+CircuitBuildTimeBin 525 17
+CircuitBuildTimeBin 575 10
+CircuitBuildTimeBin 625 8
+CircuitBuildTimeBin 675 7
+CircuitBuildTimeBin 725 5
+CircuitBuildTimeBin 775 5
+CircuitBuildTimeBin 825 4
+CircuitBuildTimeBin 925 2
+CircuitBuildTimeBin 975 4
+CircuitBuildTimeBin 1175 1
+CircuitBuildTimeBin 1325 1
+CircuitBuildTimeBin 1475 1
+CircuitBuildTimeBin 1975 1
+CircuitBuildTimeBin 3075 1
+CircuitBuildTimeBin 4375 1
+CircuitBuildTimeBin 7225 1
+CircuitBuildTimeBin 33475 1

@@ -1,0 +1,10 @@
+{
+	"torBundle":
+	{
+		"executableName": "tor.exe",
+		"configurationFilename":	"torrc",
+		"executablePath": "./Bundle/Tor",
+		"configurationFilePath": ".",
+		"hiddenServicePath":	"./hidden_service"
+	}
+}
