@@ -2,4 +2,3 @@ app.dbg.log
 app.log
 torrc
 *.json
-target/
