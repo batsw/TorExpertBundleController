@@ -281,3 +281,333 @@ hiddenServicePath./hidden_service
 2016-12-28 22:58:54,801 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHostname Message: Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
 2016-12-28 22:58:54,802 DEBUG  [main] com.batsw.tor_expert_bundle_controller.common.FileHandler readFile Message: Reading file: ./Bundle/Data/Tor/hidden_service/\hostname  
 2016-12-28 22:58:54,815 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 11:44:15,377 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 11:44:15,408 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 11:44:15,409 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 11:44:15,409 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 11:44:15,415 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Start parsing JSON data  
+2016-12-29 11:44:15,417 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Start creating JSON object  
+2016-12-29 11:44:15,435 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Data   
+2016-12-29 11:44:15,445 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Creating JSON object done  
+2016-12-29 11:44:15,445 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 11:44:15,445 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Parsing JSON done  
+2016-12-29 11:44:15,446 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 11:44:15,446 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 11:44:15,446 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 11:44:15,448 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: Extracting information from torrc file  
+2016-12-29 11:44:15,450 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: SocksPort 11158  
+2016-12-29 11:44:15,450 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:44:15,450 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServicePort 8080  
+2016-12-29 11:44:15,452 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.FilePathService getTorAbsolutePaths Message: Setting absolute path for bundle  
+2016-12-29 11:44:15,454 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 11:44:16,677 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.674 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 11:44:16,677 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,678 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.676 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 11:44:16,678 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,703 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.703 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 11:44:16,704 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,709 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.709 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 11:44:16,710 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,710 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.709 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 11:44:16,710 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,711 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.709 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 11:44:16,711 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,711 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.709 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 11:44:16,712 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,733 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.732 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 11:44:16,734 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,771 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 11:44:16,772 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:16,981 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:16.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 11:44:16,981 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:17,156 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:17.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 11:44:17,156 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:17,638 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:17.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 11:44:17,638 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:22,325 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:22.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 11:44:22,325 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:22,494 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:22.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 11:44:22,494 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:22,825 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:22.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 11:44:22,826 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:44:22,827 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:44:22.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 11:44:22,828 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: DONE  
+2016-12-29 11:44:22,828 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Bundle Started  
+2016-12-29 11:44:22,829 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 11:44:22,832 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHostname Message: Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:44:22,833 DEBUG  [main] com.batsw.tor_expert_bundle_controller.common.FileHandler readFile Message: Reading file: ./Bundle/Data/Tor/hidden_service/\hostname  
+2016-12-29 11:44:22,871 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 11:48:25,740 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 11:48:25,743 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 11:48:25,743 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 11:48:25,744 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 11:48:25,748 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Start parsing JSON data  
+2016-12-29 11:48:25,750 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Start creating JSON object  
+2016-12-29 11:48:25,751 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Data   
+2016-12-29 11:48:25,758 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Creating JSON object done  
+2016-12-29 11:48:25,758 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 11:48:25,759 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Parsing JSON done  
+2016-12-29 11:48:25,759 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 11:48:25,759 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 11:48:25,760 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 11:48:25,761 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: Extracting information from torrc file  
+2016-12-29 11:48:25,763 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: SocksPort 11158  
+2016-12-29 11:48:25,763 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:48:25,763 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServicePort 8080  
+2016-12-29 11:48:25,764 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.FilePathService getTorAbsolutePaths Message: Setting absolute path for bundle  
+2016-12-29 11:48:25,766 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 11:48:27,211 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.208 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 11:48:27,212 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,212 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.210 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 11:48:27,212 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,230 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.230 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 11:48:27,230 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,235 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.235 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 11:48:27,235 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,235 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.235 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 11:48:27,236 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,237 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.235 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 11:48:27,237 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,238 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.235 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 11:48:27,238 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,242 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.242 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 11:48:27,243 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,255 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 11:48:27,256 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,434 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 11:48:27,435 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:27,697 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:27.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 11:48:27,697 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:28,047 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:28.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 11:48:28,047 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:33,312 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:33.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 11:48:33,313 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:33,459 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:33.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 11:48:33,459 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:34,569 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:34.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 11:48:34,570 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:48:34,571 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:48:34.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 11:48:34,572 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: DONE  
+2016-12-29 11:48:34,572 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Bundle Started  
+2016-12-29 11:48:34,573 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 11:48:34,575 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHostname Message: Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:48:34,576 DEBUG  [main] com.batsw.tor_expert_bundle_controller.common.FileHandler readFile Message: Reading file: ./Bundle/Data/Tor/hidden_service/\hostname  
+2016-12-29 11:48:34,590 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 11:50:37,962 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 11:50:37,966 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 11:50:37,966 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 11:50:37,967 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 11:50:37,970 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Start parsing JSON data  
+2016-12-29 11:50:37,972 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Start creating JSON object  
+2016-12-29 11:50:37,973 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Data   
+2016-12-29 11:50:37,979 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Creating JSON object done  
+2016-12-29 11:50:37,979 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 11:50:37,980 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Parsing JSON done  
+2016-12-29 11:50:37,980 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 11:50:37,980 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 11:50:37,980 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 11:50:37,982 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: Extracting information from torrc file  
+2016-12-29 11:50:37,983 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: SocksPort 11158  
+2016-12-29 11:50:37,984 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:50:37,984 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServicePort 8080  
+2016-12-29 11:50:37,985 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.FilePathService getTorAbsolutePaths Message: Setting absolute path for bundle  
+2016-12-29 11:50:37,987 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 11:50:39,200 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.198 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 11:50:39,200 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,201 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.199 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 11:50:39,201 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,218 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.218 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 11:50:39,218 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,221 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.221 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 11:50:39,222 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,222 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.221 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 11:50:39,222 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,223 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.221 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 11:50:39,223 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,224 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.221 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 11:50:39,224 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,228 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.227 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 11:50:39,228 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,240 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 11:50:39,241 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,414 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 11:50:39,414 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,578 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 11:50:39,579 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:39,940 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:39.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 11:50:39,941 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:44,887 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:44.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 11:50:44,888 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:45,055 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:45.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 11:50:45,056 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:45,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:45.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 11:50:45,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 11:50:45,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 11:50:45.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 11:50:45,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: DONE  
+2016-12-29 11:50:45,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Bundle Started  
+2016-12-29 11:50:45,276 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 11:50:45,276 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHostname Message: Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:50:45,276 DEBUG  [main] com.batsw.tor_expert_bundle_controller.common.FileHandler readFile Message: Reading file: ./Bundle/Data/Tor/hidden_service/\hostname  
+2016-12-29 11:50:45,281 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 13:13:21,250 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 13:13:21,254 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 13:13:21,254 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 13:13:21,255 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 13:13:21,260 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Start parsing JSON data  
+2016-12-29 13:13:21,263 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Start creating JSON object  
+2016-12-29 13:13:21,266 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Data   
+2016-12-29 13:13:21,274 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Creating JSON object done  
+2016-12-29 13:13:21,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 13:13:21,275 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Parsing JSON done  
+2016-12-29 13:13:21,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 13:13:21,275 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 13:13:21,276 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 13:13:21,277 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: Extracting information from torrc file  
+2016-12-29 13:13:21,280 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: SocksPort 11158  
+2016-12-29 13:13:21,281 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 13:13:21,281 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServicePort 8080  
+2016-12-29 13:13:21,282 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.FilePathService getTorAbsolutePaths Message: Setting absolute path for bundle  
+2016-12-29 13:13:21,284 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 13:13:22,781 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.777 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 13:13:22,782 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,782 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.780 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 13:13:22,783 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,811 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.810 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 13:13:22,811 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,816 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.816 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 13:13:22,817 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,817 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.816 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 13:13:22,818 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,819 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.816 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 13:13:22,819 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,820 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.816 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 13:13:22,821 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,828 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.828 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 13:13:22,829 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:22,848 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:22.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 13:13:22,848 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:23,063 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:23.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 13:13:23,064 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:23,267 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:23.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 13:13:23,267 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:23,676 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:23.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 13:13:23,676 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:32,156 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:32.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 13:13:32,156 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:32,304 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:32.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 13:13:32,305 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:32,677 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:32.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 13:13:32,677 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 13:13:32,678 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 13:13:32.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 13:13:32,678 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: DONE  
+2016-12-29 13:13:32,678 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Bundle Started  
+2016-12-29 13:13:32,678 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 13:13:32,679 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHostname Message: Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 13:13:32,680 DEBUG  [main] com.batsw.tor_expert_bundle_controller.common.FileHandler readFile Message: Reading file: ./Bundle/Data/Tor/hidden_service/\hostname  
+2016-12-29 13:13:32,685 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 16:45:28,026 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 16:45:28,029 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 16:45:28,029 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 16:45:28,029 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 16:45:28,034 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Start parsing JSON data  
+2016-12-29 16:45:28,047 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Start creating JSON object  
+2016-12-29 16:45:28,049 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Data   
+2016-12-29 16:45:28,056 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser extractJsonObject Message: Creating JSON object done  
+2016-12-29 16:45:28,057 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 16:45:28,057 DEBUG  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatcfgParser parse Message: Parsing JSON done  
+2016-12-29 16:45:28,057 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle getConfiguration Message: Reading torchatcfg.json file  
+2016-12-29 16:45:28,058 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getConfigurationFile Message: Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 16:45:28,058 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorchatConfigReader getFile Message: Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 16:45:28,059 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: Extracting information from torrc file  
+2016-12-29 16:45:28,061 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: SocksPort 11158  
+2016-12-29 16:45:28,061 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 16:45:28,062 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.TorrcFileParser parse Message: HiddenServicePort 8080  
+2016-12-29 16:45:28,076 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.FilePathService getTorAbsolutePaths Message: Setting absolute path for bundle  
+2016-12-29 16:45:28,079 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 16:45:29,306 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.296 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 16:45:29,307 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,307 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.299 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 16:45:29,307 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,317 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.317 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 16:45:29,317 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,321 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.321 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 16:45:29,322 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,322 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.321 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 16:45:29,323 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,323 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.321 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 16:45:29,324 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,324 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.321 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 16:45:29,325 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,329 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.329 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 16:45:29,330 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,343 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 16:45:29,343 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,517 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 16:45:29,517 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:29,730 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:29.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 16:45:29,730 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:30,092 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:30.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 16:45:30,092 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:34,924 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:34.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 16:45:34,925 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:35,086 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:35.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 16:45:35,087 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:35,309 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:35.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 16:45:35,310 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: LOADING  
+2016-12-29 16:45:35,310 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Dec 29 16:45:35.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 16:45:35,310 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: DONE  
+2016-12-29 16:45:35,310 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: Bundle Started  
+2016-12-29 16:45:35,311 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHiddenServiceStatus Message: Hidden service location   
+2016-12-29 16:45:35,311 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.HiddenServiceReader getHostname Message: Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 16:45:35,312 DEBUG  [main] com.batsw.tor_expert_bundle_controller.common.FileHandler readFile Message: Reading file: ./Bundle/Data/Tor/hidden_service/\hostname  
+2016-12-29 16:45:35,316 INFO  [main] com.batsw.tor_expert_bundle_controller.service.impl.Bundle run Message: hostname value: ecdw3wod4uqaufbk.onion  

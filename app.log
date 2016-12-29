@@ -258,3 +258,308 @@ hiddenServicePath./hidden_service
 2016-12-28 22:58:54,799 INFO Hidden service location   
 2016-12-28 22:58:54,801 INFO Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
 2016-12-28 22:58:54,815 INFO hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 11:44:15,377 INFO Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 11:44:15,408 INFO Reading torchatcfg.json file  
+2016-12-29 11:44:15,409 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 11:44:15,409 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 11:44:15,435 INFO Data   
+2016-12-29 11:44:15,445 INFO The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 11:44:15,446 INFO Reading torchatcfg.json file  
+2016-12-29 11:44:15,446 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 11:44:15,446 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 11:44:15,448 INFO Extracting information from torrc file  
+2016-12-29 11:44:15,450 INFO SocksPort 11158  
+2016-12-29 11:44:15,450 INFO HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:44:15,450 INFO HiddenServicePort 8080  
+2016-12-29 11:44:15,452 INFO Setting absolute path for bundle  
+2016-12-29 11:44:15,454 INFO Hidden service location   
+2016-12-29 11:44:16,677 INFO Dec 29 11:44:16.674 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 11:44:16,677 INFO LOADING  
+2016-12-29 11:44:16,678 INFO Dec 29 11:44:16.676 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 11:44:16,678 INFO LOADING  
+2016-12-29 11:44:16,703 INFO Dec 29 11:44:16.703 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 11:44:16,704 INFO LOADING  
+2016-12-29 11:44:16,709 INFO Dec 29 11:44:16.709 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 11:44:16,710 INFO LOADING  
+2016-12-29 11:44:16,710 INFO Dec 29 11:44:16.709 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 11:44:16,710 INFO LOADING  
+2016-12-29 11:44:16,711 INFO Dec 29 11:44:16.709 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 11:44:16,711 INFO LOADING  
+2016-12-29 11:44:16,711 INFO Dec 29 11:44:16.709 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 11:44:16,712 INFO LOADING  
+2016-12-29 11:44:16,733 INFO Dec 29 11:44:16.732 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 11:44:16,734 INFO LOADING  
+2016-12-29 11:44:16,771 INFO Dec 29 11:44:16.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 11:44:16,772 INFO LOADING  
+2016-12-29 11:44:16,981 INFO Dec 29 11:44:16.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 11:44:16,981 INFO LOADING  
+2016-12-29 11:44:17,156 INFO Dec 29 11:44:17.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 11:44:17,156 INFO LOADING  
+2016-12-29 11:44:17,638 INFO Dec 29 11:44:17.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 11:44:17,638 INFO LOADING  
+2016-12-29 11:44:22,325 INFO Dec 29 11:44:22.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 11:44:22,325 INFO LOADING  
+2016-12-29 11:44:22,494 INFO Dec 29 11:44:22.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 11:44:22,494 INFO LOADING  
+2016-12-29 11:44:22,825 INFO Dec 29 11:44:22.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 11:44:22,826 INFO LOADING  
+2016-12-29 11:44:22,827 INFO Dec 29 11:44:22.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 11:44:22,828 INFO DONE  
+2016-12-29 11:44:22,828 INFO Bundle Started  
+2016-12-29 11:44:22,829 INFO Hidden service location   
+2016-12-29 11:44:22,832 INFO Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:44:22,871 INFO hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 11:48:25,740 INFO Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 11:48:25,743 INFO Reading torchatcfg.json file  
+2016-12-29 11:48:25,743 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 11:48:25,744 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 11:48:25,751 INFO Data   
+2016-12-29 11:48:25,758 INFO The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 11:48:25,759 INFO Reading torchatcfg.json file  
+2016-12-29 11:48:25,759 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 11:48:25,760 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 11:48:25,761 INFO Extracting information from torrc file  
+2016-12-29 11:48:25,763 INFO SocksPort 11158  
+2016-12-29 11:48:25,763 INFO HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:48:25,763 INFO HiddenServicePort 8080  
+2016-12-29 11:48:25,764 INFO Setting absolute path for bundle  
+2016-12-29 11:48:25,766 INFO Hidden service location   
+2016-12-29 11:48:27,211 INFO Dec 29 11:48:27.208 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 11:48:27,212 INFO LOADING  
+2016-12-29 11:48:27,212 INFO Dec 29 11:48:27.210 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 11:48:27,212 INFO LOADING  
+2016-12-29 11:48:27,230 INFO Dec 29 11:48:27.230 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 11:48:27,230 INFO LOADING  
+2016-12-29 11:48:27,235 INFO Dec 29 11:48:27.235 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 11:48:27,235 INFO LOADING  
+2016-12-29 11:48:27,235 INFO Dec 29 11:48:27.235 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 11:48:27,236 INFO LOADING  
+2016-12-29 11:48:27,237 INFO Dec 29 11:48:27.235 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 11:48:27,237 INFO LOADING  
+2016-12-29 11:48:27,238 INFO Dec 29 11:48:27.235 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 11:48:27,238 INFO LOADING  
+2016-12-29 11:48:27,242 INFO Dec 29 11:48:27.242 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 11:48:27,243 INFO LOADING  
+2016-12-29 11:48:27,255 INFO Dec 29 11:48:27.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 11:48:27,256 INFO LOADING  
+2016-12-29 11:48:27,434 INFO Dec 29 11:48:27.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 11:48:27,435 INFO LOADING  
+2016-12-29 11:48:27,697 INFO Dec 29 11:48:27.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 11:48:27,697 INFO LOADING  
+2016-12-29 11:48:28,047 INFO Dec 29 11:48:28.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 11:48:28,047 INFO LOADING  
+2016-12-29 11:48:33,312 INFO Dec 29 11:48:33.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 11:48:33,313 INFO LOADING  
+2016-12-29 11:48:33,459 INFO Dec 29 11:48:33.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 11:48:33,459 INFO LOADING  
+2016-12-29 11:48:34,569 INFO Dec 29 11:48:34.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 11:48:34,570 INFO LOADING  
+2016-12-29 11:48:34,571 INFO Dec 29 11:48:34.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 11:48:34,572 INFO DONE  
+2016-12-29 11:48:34,572 INFO Bundle Started  
+2016-12-29 11:48:34,573 INFO Hidden service location   
+2016-12-29 11:48:34,575 INFO Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:48:34,590 INFO hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 11:50:37,962 INFO Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 11:50:37,966 INFO Reading torchatcfg.json file  
+2016-12-29 11:50:37,966 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 11:50:37,967 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 11:50:37,973 INFO Data   
+2016-12-29 11:50:37,979 INFO The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 11:50:37,980 INFO Reading torchatcfg.json file  
+2016-12-29 11:50:37,980 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 11:50:37,980 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 11:50:37,982 INFO Extracting information from torrc file  
+2016-12-29 11:50:37,983 INFO SocksPort 11158  
+2016-12-29 11:50:37,984 INFO HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:50:37,984 INFO HiddenServicePort 8080  
+2016-12-29 11:50:37,985 INFO Setting absolute path for bundle  
+2016-12-29 11:50:37,987 INFO Hidden service location   
+2016-12-29 11:50:39,200 INFO Dec 29 11:50:39.198 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 11:50:39,200 INFO LOADING  
+2016-12-29 11:50:39,201 INFO Dec 29 11:50:39.199 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 11:50:39,201 INFO LOADING  
+2016-12-29 11:50:39,218 INFO Dec 29 11:50:39.218 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 11:50:39,218 INFO LOADING  
+2016-12-29 11:50:39,221 INFO Dec 29 11:50:39.221 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 11:50:39,222 INFO LOADING  
+2016-12-29 11:50:39,222 INFO Dec 29 11:50:39.221 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 11:50:39,222 INFO LOADING  
+2016-12-29 11:50:39,223 INFO Dec 29 11:50:39.221 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 11:50:39,223 INFO LOADING  
+2016-12-29 11:50:39,224 INFO Dec 29 11:50:39.221 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 11:50:39,224 INFO LOADING  
+2016-12-29 11:50:39,228 INFO Dec 29 11:50:39.227 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 11:50:39,228 INFO LOADING  
+2016-12-29 11:50:39,240 INFO Dec 29 11:50:39.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 11:50:39,241 INFO LOADING  
+2016-12-29 11:50:39,414 INFO Dec 29 11:50:39.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 11:50:39,414 INFO LOADING  
+2016-12-29 11:50:39,578 INFO Dec 29 11:50:39.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 11:50:39,579 INFO LOADING  
+2016-12-29 11:50:39,940 INFO Dec 29 11:50:39.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 11:50:39,941 INFO LOADING  
+2016-12-29 11:50:44,887 INFO Dec 29 11:50:44.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 11:50:44,888 INFO LOADING  
+2016-12-29 11:50:45,055 INFO Dec 29 11:50:45.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 11:50:45,056 INFO LOADING  
+2016-12-29 11:50:45,275 INFO Dec 29 11:50:45.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 11:50:45,275 INFO LOADING  
+2016-12-29 11:50:45,275 INFO Dec 29 11:50:45.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 11:50:45,275 INFO DONE  
+2016-12-29 11:50:45,275 INFO Bundle Started  
+2016-12-29 11:50:45,276 INFO Hidden service location   
+2016-12-29 11:50:45,276 INFO Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 11:50:45,281 INFO hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 13:13:21,250 INFO Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 13:13:21,254 INFO Reading torchatcfg.json file  
+2016-12-29 13:13:21,254 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 13:13:21,255 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 13:13:21,266 INFO Data   
+2016-12-29 13:13:21,275 INFO The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 13:13:21,275 INFO Reading torchatcfg.json file  
+2016-12-29 13:13:21,275 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 13:13:21,276 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 13:13:21,277 INFO Extracting information from torrc file  
+2016-12-29 13:13:21,280 INFO SocksPort 11158  
+2016-12-29 13:13:21,281 INFO HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 13:13:21,281 INFO HiddenServicePort 8080  
+2016-12-29 13:13:21,282 INFO Setting absolute path for bundle  
+2016-12-29 13:13:21,284 INFO Hidden service location   
+2016-12-29 13:13:22,781 INFO Dec 29 13:13:22.777 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 13:13:22,782 INFO LOADING  
+2016-12-29 13:13:22,782 INFO Dec 29 13:13:22.780 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 13:13:22,783 INFO LOADING  
+2016-12-29 13:13:22,811 INFO Dec 29 13:13:22.810 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 13:13:22,811 INFO LOADING  
+2016-12-29 13:13:22,816 INFO Dec 29 13:13:22.816 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 13:13:22,817 INFO LOADING  
+2016-12-29 13:13:22,817 INFO Dec 29 13:13:22.816 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 13:13:22,818 INFO LOADING  
+2016-12-29 13:13:22,819 INFO Dec 29 13:13:22.816 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 13:13:22,819 INFO LOADING  
+2016-12-29 13:13:22,820 INFO Dec 29 13:13:22.816 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 13:13:22,821 INFO LOADING  
+2016-12-29 13:13:22,828 INFO Dec 29 13:13:22.828 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 13:13:22,829 INFO LOADING  
+2016-12-29 13:13:22,848 INFO Dec 29 13:13:22.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 13:13:22,848 INFO LOADING  
+2016-12-29 13:13:23,063 INFO Dec 29 13:13:23.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 13:13:23,064 INFO LOADING  
+2016-12-29 13:13:23,267 INFO Dec 29 13:13:23.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 13:13:23,267 INFO LOADING  
+2016-12-29 13:13:23,676 INFO Dec 29 13:13:23.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 13:13:23,676 INFO LOADING  
+2016-12-29 13:13:32,156 INFO Dec 29 13:13:32.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 13:13:32,156 INFO LOADING  
+2016-12-29 13:13:32,304 INFO Dec 29 13:13:32.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 13:13:32,305 INFO LOADING  
+2016-12-29 13:13:32,677 INFO Dec 29 13:13:32.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 13:13:32,677 INFO LOADING  
+2016-12-29 13:13:32,678 INFO Dec 29 13:13:32.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 13:13:32,678 INFO DONE  
+2016-12-29 13:13:32,678 INFO Bundle Started  
+2016-12-29 13:13:32,678 INFO Hidden service location   
+2016-12-29 13:13:32,679 INFO Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 13:13:32,685 INFO hostname value: ecdw3wod4uqaufbk.onion  
+2016-12-29 16:45:28,026 INFO Current directory : C:\Users\adria\Documents\InteliJ\TorExpertBundleController  
+2016-12-29 16:45:28,029 INFO Reading torchatcfg.json file  
+2016-12-29 16:45:28,029 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torchatcfg.json  
+2016-12-29 16:45:28,029 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torchatcfg.json  
+2016-12-29 16:45:28,049 INFO Data   
+2016-12-29 16:45:28,057 INFO The following setting were found: 
+executableName: tor.exe
+
+configurationFilename: torrc
+
+executablePath: .
+
+configurationFilePath:.
+
+hiddenServicePath./hidden_service
+  
+2016-12-29 16:45:28,057 INFO Reading torchatcfg.json file  
+2016-12-29 16:45:28,058 INFO Loading fromC:\Users\adria\Documents\InteliJ\TorExpertBundleController file: torrc  
+2016-12-29 16:45:28,058 INFO Reading file C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc  
+2016-12-29 16:45:28,059 INFO Extracting information from torrc file  
+2016-12-29 16:45:28,061 INFO SocksPort 11158  
+2016-12-29 16:45:28,061 INFO HiddenServiceDir ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 16:45:28,062 INFO HiddenServicePort 8080  
+2016-12-29 16:45:28,076 INFO Setting absolute path for bundle  
+2016-12-29 16:45:28,079 INFO Hidden service location   
+2016-12-29 16:45:29,306 INFO Dec 29 16:45:29.296 [notice] Tor v0.2.8.7 (git-263088633a63982a) running on Windows 8 with Libevent 2.0.22-stable, OpenSSL 1.0.1t and Zlib 1.2.8.  
+2016-12-29 16:45:29,307 INFO LOADING  
+2016-12-29 16:45:29,307 INFO Dec 29 16:45:29.299 [notice] Tor can't help you if you use it wrong! Learn how to be safe at https://www.torproject.org/download/download#warning  
+2016-12-29 16:45:29,307 INFO LOADING  
+2016-12-29 16:45:29,317 INFO Dec 29 16:45:29.317 [notice] Read configuration file "C:\Users\adria\Documents\InteliJ\TorExpertBundleController\torrc".  
+2016-12-29 16:45:29,317 INFO LOADING  
+2016-12-29 16:45:29,321 INFO Dec 29 16:45:29.321 [warn] Path for GeoIPFile (./Bundle/Data/Tor/geoip) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip. Is this what you wanted?  
+2016-12-29 16:45:29,322 INFO LOADING  
+2016-12-29 16:45:29,322 INFO Dec 29 16:45:29.321 [warn] Path for GeoIPv6File (./Bundle/Data/Tor/geoip6) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\geoip6. Is this what you wanted?  
+2016-12-29 16:45:29,323 INFO LOADING  
+2016-12-29 16:45:29,323 INFO Dec 29 16:45:29.321 [warn] Path for DataDirectory (./Bundle/Data/Tor) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor. Is this what you wanted?  
+2016-12-29 16:45:29,324 INFO LOADING  
+2016-12-29 16:45:29,324 INFO Dec 29 16:45:29.321 [warn] Path for HiddenServiceDir (./Bundle/Data/Tor/hidden_service/) is relative and will resolve to C:\Users\adria\Documents\InteliJ\TorExpertBundleController\Bundle\Data\Tor\hidden_service\. Is this what you wanted?  
+2016-12-29 16:45:29,325 INFO LOADING  
+2016-12-29 16:45:29,329 INFO Dec 29 16:45:29.329 [notice] Opening Socks listener on 127.0.0.1:11158  
+2016-12-29 16:45:29,330 INFO LOADING  
+2016-12-29 16:45:29,343 INFO Dec 29 16:45:29.000 [notice] Parsing GEOIP IPv4 file ./Bundle/Data/Tor/geoip.  
+2016-12-29 16:45:29,343 INFO LOADING  
+2016-12-29 16:45:29,517 INFO Dec 29 16:45:29.000 [notice] Parsing GEOIP IPv6 file ./Bundle/Data/Tor/geoip6.  
+2016-12-29 16:45:29,517 INFO LOADING  
+2016-12-29 16:45:29,730 INFO Dec 29 16:45:29.000 [notice] Bootstrapped 0%: Starting  
+2016-12-29 16:45:29,730 INFO LOADING  
+2016-12-29 16:45:30,092 INFO Dec 29 16:45:30.000 [notice] Bootstrapped 80%: Connecting to the Tor network  
+2016-12-29 16:45:30,092 INFO LOADING  
+2016-12-29 16:45:34,924 INFO Dec 29 16:45:34.000 [notice] Bootstrapped 85%: Finishing handshake with first hop  
+2016-12-29 16:45:34,925 INFO LOADING  
+2016-12-29 16:45:35,086 INFO Dec 29 16:45:35.000 [notice] Bootstrapped 90%: Establishing a Tor circuit  
+2016-12-29 16:45:35,087 INFO LOADING  
+2016-12-29 16:45:35,309 INFO Dec 29 16:45:35.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.  
+2016-12-29 16:45:35,310 INFO LOADING  
+2016-12-29 16:45:35,310 INFO Dec 29 16:45:35.000 [notice] Bootstrapped 100%: Done  
+2016-12-29 16:45:35,310 INFO DONE  
+2016-12-29 16:45:35,310 INFO Bundle Started  
+2016-12-29 16:45:35,311 INFO Hidden service location   
+2016-12-29 16:45:35,311 INFO Searching for  file hostname in ./Bundle/Data/Tor/hidden_service/  
+2016-12-29 16:45:35,316 INFO hostname value: ecdw3wod4uqaufbk.onion  

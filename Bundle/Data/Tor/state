@@ -1,4 +1,4 @@
-# Tor state file last generated on 2016-12-28 22:58:53 local time
+# Tor state file last generated on 2016-12-29 16:45:34 local time
 # Other times below are in UTC
 # You *do not* need to edit this file.
 
@@ -19,7 +19,7 @@ EntryGuard SweRaspiTor3 DCAA176F75B04287131C6D78B7CFDDAC6F2691D9 DirCache
 EntryGuardAddedBy DCAA176F75B04287131C6D78B7CFDDAC6F2691D9 0.2.8.7 2016-12-11 23:48:02
 EntryGuardPathBias 2.000000 2.000000 2.000000 0.000000 0.000000 0.000000
 TorVersion Tor 0.2.8.7 (git-263088633a63982a)
-LastWritten 2016-12-28 20:58:53
+LastWritten 2016-12-29 14:45:34
 TotalBuildTimes 230
 CircuitBuildTimeBin 175 24
 CircuitBuildTimeBin 225 32
