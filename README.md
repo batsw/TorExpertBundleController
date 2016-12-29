@@ -36,8 +36,10 @@ public class Main {
 ```
 ## Development details
 - Platform: Windows 10 Pro 
-- IDE: IntelliJ IDEA 2016.25
+- IDE: IntelliJ IDEA 2016.2.5
 - Build system: Maeven 3.0.5
 - Dependencies: log4j 2.7, json-simple 1.1.1 
 
-
+## Building project in Intelij
+## Building project in Eclipse
+## Building with maeven
