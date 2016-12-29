@@ -46,7 +46,7 @@ public class Main {
 }
 ```
 ### Development details
-- Platform: Windows 10 Pro 
+- Platform: Windows 
 - IDE: IntelliJ IDEA 2016.2.5
 - Build system: Maeven 3.0.5
 - Dependencies: log4j 2.7, json-simple 1.1.1 
@@ -60,7 +60,7 @@ Steps:
 - File -> Open -> Select project location 
 - Maven Projects -> Execute Maven Goal -> Set command line parameter to package -> Execute
 
-### Building project in Eclipse
+### Building project in Eclipse -> Not recommended for commits
 Steps
 - use gitbash to clone the  repository
 - Start Eclipse 
@@ -68,4 +68,4 @@ Steps
 - Right Click pom.xml -> Run as -> Maeven Build  
 
 ### Using the library
-Import as a jar file the
+Import as a jar file 
