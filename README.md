@@ -8,6 +8,8 @@ Features:
 - Retrive the hidden service directory hostname
 - Get information about used ports
 
+**The library is plug and play, having included Tor Expert Bundle.**
+
 ## Notes:
 The current version runs on Windows systems.
   
